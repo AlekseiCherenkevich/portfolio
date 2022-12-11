@@ -1,0 +1,25 @@
+.mainBlock {
+    background-color: beige;
+    padding: 150px 0;
+}
+
+.mainBlock div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    width: 300px;
+    background-color: lavender;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.photo {
+    width: 300px;
+    height: 400px;
+    background-color: lavender;
+}
