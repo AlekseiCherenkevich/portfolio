@@ -1,0 +1,9 @@
+.header {
+    height: 80px;
+    background-color: coral;
+}
+
+.header > div {
+    background-color: lightslategrey;
+    padding-left: calc(80% - 300px);
+}
