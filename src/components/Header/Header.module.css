@@ -6,4 +6,6 @@
 .header > div {
     background-color: lightslategrey;
     padding-left: calc(80% - 300px);
+    display: flex;
+    align-items: center;
 }
