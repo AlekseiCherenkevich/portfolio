@@ -1,0 +1,15 @@
+.skillsBlock {
+    padding: 150px 0;
+    background-color: lightslategrey;
+}
+
+.skillsItemsWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    border: 1px solid;
+}
+
+.title {
+    text-align: center;
+}
