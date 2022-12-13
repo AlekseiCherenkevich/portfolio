@@ -1,0 +1,16 @@
+.projectsBlock {
+    padding: 150px 0;
+    background-color: darkkhaki;
+    border: 1px solid;
+}
+
+.projectsItemsWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    border: 1px solid;
+}
+
+.title {
+    text-align: center;
+}

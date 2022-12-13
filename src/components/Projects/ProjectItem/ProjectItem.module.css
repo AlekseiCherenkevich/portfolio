@@ -1,0 +1,32 @@
+.projectItemWrapper {
+    /*height: 500px;*/
+    /*width: 500px;*/
+    border: 1px solid;
+}
+
+.projectImg {
+    background-color: coral;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectInfo {
+    background-color: navajowhite;
+    padding: 30px;
+}
+
+.projectTitle {
+    background-color: lightslategrey;
+}
+
+.projectDecription {
+    background-color: lightslategrey;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+}
