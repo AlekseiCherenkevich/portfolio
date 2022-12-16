@@ -1,0 +1,29 @@
+.contactsBlock {
+    background-color: beige;
+    padding: 150px 0;
+}
+
+.contactsBlock div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contactsBlock form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.contactsBlock form>input {
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.contactsBlock form>textarea {
+    height: 100px;
+}
