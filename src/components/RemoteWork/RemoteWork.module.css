@@ -4,7 +4,7 @@
 
 }
 
-.remoteWorkWrapper div {
+.remoteWorkWrapper > div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,3 +12,12 @@
     min-height: 200px;
 }
 
+.remoteWorkWrapper > div > h2 {
+    text-align: center;
+}
+
+@media (max-width: 810px) {
+    .remoteWorkWrapper {
+        padding: 30px 0;
+    }
+}
