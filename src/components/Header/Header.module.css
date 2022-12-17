@@ -1,6 +1,8 @@
 .header {
     height: 80px;
     background-color: coral;
+    position: fixed;
+    width: 100%;
 }
 
 .header > div {
@@ -8,4 +10,14 @@
     padding-left: calc(80% - 300px);
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 395px) {
+    .header {
+        height: 50px;
+    }
+    .header > div {
+        display: flex;
+        justify-content: center;
+    }
 }
