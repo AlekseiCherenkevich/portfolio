@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className={style.socialMediaItem}></div>
                     <div className={style.socialMediaItem}></div>
                 </div>
-                <div className={style.info}>2019 All rights reserved</div>
+                <span className={style.info}>2019 All rights reserved</span>
             </div>
         </div>
     );
