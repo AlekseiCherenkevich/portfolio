@@ -1,13 +1,14 @@
 .projectItemWrapper {
-    /*height: 500px;*/
-    /*width: 500px;*/
+    width: 40%;
+    min-width: 330px;
     border: 1px solid;
+    padding: 10px;
 }
 
 .projectImg {
     background-color: coral;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,10 +24,17 @@
 }
 
 .projectDecription {
-    background-color: lightslategrey;
+    word-wrap: anywhere;
 }
 
 button {
     width: 200px;
     height: 50px;
 }
+
+@media (max-width: 430px) {
+    .projectItemWrapper {
+        min-width: 100%;
+    }
+}
+

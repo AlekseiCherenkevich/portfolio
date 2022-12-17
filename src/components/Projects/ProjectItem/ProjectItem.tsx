@@ -9,7 +9,7 @@ const ProjectItem = () => {
             </div>
             <div className={style.projectInfo}>
                 <h4 className={style.projectTitle}>Title</h4>
-                <div className={style.projectDecription}>Description...</div>
+                <p className={style.projectDecription}>Description...</p>
             </div>
         </div>
     );
