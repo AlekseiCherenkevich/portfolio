@@ -1,14 +1,14 @@
 .contactsBlock {
-    background-color: beige;
+    background-color: mediumspringgreen;
     padding: 150px 0;
 }
 
-.contactsBlock div {
+.contactsBlock>div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
+    padding: 0 20px 20px 20px;
 }
 
 .contactsBlock form {
@@ -16,6 +16,7 @@
     flex-direction: column;
     border: 1px solid;
     width: 300px;
+    max-width: 100%;
     margin-bottom: 30px;
 }
 
@@ -26,4 +27,10 @@
 
 .contactsBlock form>textarea {
     height: 100px;
+}
+
+@media (max-width: 810px) {
+    .contactsBlock {
+        padding: 30px 0;
+    }
 }
